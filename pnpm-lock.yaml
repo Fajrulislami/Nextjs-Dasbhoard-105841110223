@@ -24,7 +24,7 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       next:
-        specifier: latest
+        specifier: 15.3.2
         version: 15.3.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       next-auth:
         specifier: 5.0.0-beta.25
@@ -33,13 +33,13 @@ importers:
         specifier: 8.5.1
         version: 8.5.1
       postgres:
-        specifier: ^3.4.6
+        specifier: 3.4.6
         version: 3.4.6
       react:
-        specifier: latest
+        specifier: 19.1.0
         version: 19.1.0
       react-dom:
-        specifier: latest
+        specifier: 19.1.0
         version: 19.1.0(react@19.1.0)
       tailwindcss:
         specifier: 3.4.17
@@ -858,6 +858,7 @@ packages:
   postgres@3.4.6:
     resolution: {integrity: sha512-MXrZVqgUfiirfZ0MqQqXqZQa6oM5OWFjfuaHVKl7v2zW25LnOJeLpQk+UUW0ZuP94fcS+fZVqyDYm9v5SIJ11Q==}
     engines: {node: '>=12'}
+    deprecated: Had .reserve() regression fixed in 3.4.7
 
   preact-render-to-string@5.2.3:
     resolution: {integrity: sha512-aPDxUn5o3GhWdtJtW0svRC2SS/l8D9MAgo2+AWml+BhDImb27ALf04Q2d+AHqUUOc6RdSXFIBVa2gxzgMKgtZA==}
